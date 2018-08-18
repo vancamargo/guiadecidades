@@ -1,0 +1,23 @@
+page-signup {
+    .slide-background{
+      border-color: transparent;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+  .slide-zoom{
+    height: 100%;
+    background-color: rgba(32, 32, 32, 0.2) !important;
+  }
+  ion-slides{
+    height: 100vh;;
+  }
+
+  .scroll-content{
+    margin-top: 0 !important;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+  }
+}
